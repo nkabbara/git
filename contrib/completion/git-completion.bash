@@ -3369,6 +3369,8 @@ _gitk ()
 	__git_wrap__gitk_main
 }
 
+# To support my shortcut `g`
+__git_complete g __git_main
 __git_complete git __git_main
 __git_complete gitk __gitk_main
 
